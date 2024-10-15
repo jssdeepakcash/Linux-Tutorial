@@ -9,3 +9,20 @@
         cat filex     (see filex data)
 #content button to top
          tac file1
+
+
+
+#touch command use for create empty file , change all time stamps of a file , update access time of a file , modify time 
+
+#create multiple empty file 
+     touch file1 file2 file2
+#access time change
+     touch -a file1
+#modify time 
+     touch -m file1
+
+
+
+#vi editor (text editor)
+#:w -- save , :wq -- save and quit , :x -- save and quit , :q --quit ,  :q! --force quit without saving 
+   vi file1   #(press I for insert)
