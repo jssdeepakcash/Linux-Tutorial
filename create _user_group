@@ -1,0 +1,16 @@
+#create user
+    useradd Deepak
+    cat /etc/passwd  ---> see user
+#create group
+    groupadd devops
+    cat /etc/group  ----> see group
+#add user
+    gpasswd -a <name> <group_name>  ---->one user
+    gpasswd -M <name1,name2,name3> <group_name> ---->multiple users
+#remove user from group 
+   gpasswd -d <name> <group>
+#delete group
+   groupdel -r <group_name>
+#delete user
+   userdel -r <name>
+    
