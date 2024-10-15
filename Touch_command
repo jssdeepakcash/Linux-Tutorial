@@ -1,0 +1,8 @@
+#touch command use for create empty file , change all time stamps of a file , update access time of a file , modify time 
+
+#create multiple empty file 
+     touch file1 file2 file2
+#access time change
+     touch -a file1
+#modify time 
+     touch -m file1
