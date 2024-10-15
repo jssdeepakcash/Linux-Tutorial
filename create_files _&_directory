@@ -26,3 +26,35 @@
 #vi editor (text editor)
 #:w -- save , :wq -- save and quit , :x -- save and quit , :q --quit ,  :q! --force quit without saving 
    vi file1   #(press I for insert)
+
+
+
+ls -l  ----> long listing
+ls -a  ----> all files with hidden files also
+ls -la ---->long listing with hidden files 
+
+
+#create directory 
+    mkdir dir1 
+#create multiple directory 
+    mkdir dir2/ dir3/ dir4
+#change directory 
+   cd dir1
+pwd ---->print working directory 
+#exit current directory
+ cd ..
+#exit parent directory
+ cd ../../
+
+
+
+#hidden file 
+  touch .filex
+#hidden directory 
+  mkdir .dirx
+
+#copy file (cp), move file (mv) , rename file (mv)
+   cp source destination
+   cp file1 file2
+   mv file1 file2
+
