@@ -1,0 +1,54 @@
+#download from link 
+   wget <url>
+#update all pakages
+   apt-get update
+#upgrade 
+   apt-get upgrade
+#grep and egrep 
+  grep <word> <location>   ---->grep use for one word 
+  egrep user for more then one string 
+  egrep "key1|key2|key3" <location>
+#arrange alphabetical order
+ sort <file_name> 
+#backup or hardlink 
+  ln <file_name> <new_file>
+#softlink
+  ln -s <file_name> <new_file>
+less <file_name>  ----->see first page contant
+head <file_name>   ------>see starting 10 line
+tail <file_name>   ------->last 10 line 
+more <file_name>    -------->all 
+less <file_name>   ---------> easy read big data 
+head -5 <file_name>  --------> starting 5 line
+tail -5 <file_name>  --------> last 5 line
+wc <file_name>  -----------> counting words
+#combind for commands 
+    commad1|commad2 <file_name>
+#diffrence between two file
+    diff <file1> <file2>
+#add output into new file
+    ls -l > <file_name>
+#check service is running or not
+    systemctl status <service_name>
+#check free disk space 
+    df   
+    df -h 
+#cpu uses 
+   top
+#check process/app running or not 
+   ps 
+#terminate or stop running process 
+  kill <process_name>
+#check ip/server accessable or not 
+  ping <i.p>
+#info about the ports 
+   netstat 
+#check size of directory 
+   du <directory_name>
+#check os version 
+  cat /etc/os-release or cat /etc/os-re*
+#check memory 
+  cat /proc/meminfo
+#check user
+  whoami
+
