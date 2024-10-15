@@ -1,0 +1,7 @@
+#combind multiple file into one zip file
+   tar -cvf dir1.tar dir1
+   gzip dir1.tar    ---->apply tar 
+#unzip 
+   gunzip dir1.tar.gz
+#remove tar 
+   tar -xvf dir1.tar
