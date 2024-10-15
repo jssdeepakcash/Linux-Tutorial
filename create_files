@@ -1,0 +1,11 @@
+#cat command - no edit
+#crete_files
+        cat>file1  ---- "hello techie"  >>>ctrl+d
+        ls ---- list files
+#adding in exiting file
+        cat>>file1   -------"how are you?"
+#adding data from exiting file
+        cat file1 file2 > filex
+        cat filex     (see filex data)
+#content button to top
+         tac file1
