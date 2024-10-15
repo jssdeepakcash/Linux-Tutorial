@@ -1,0 +1,10 @@
+#permissisons 
+  chmod 741 <file_name>
+  chmod u=rwx,g=wx,o=x <file_name>
+  chmod u-x,g+r,o+w <file_name>
+
+#ownership
+  chown <deepak> <file_name>
+
+#group change
+  chgrp <group_name> <file_name>
