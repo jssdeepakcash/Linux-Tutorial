@@ -1,0 +1,5 @@
+rm file1    #----> remove file
+rmdir dir1  #----> remove empty directory 
+
+rm -dir dir1 #---> remove non-empty directory
+rm -rf dir1  #---> remove even non-empty directory and files with forcefully
